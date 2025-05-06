@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>التحضير لورشة Bulk RNA-seq</title>
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      margin: 40px;
+      background: #f7f9fc;
+      color: #333;
+      line-height: 1.8;
+    }
+    h1, h2 {
+      color: #004080;
+    }
+    section {
+      margin-bottom: 30px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    code {
+      background: #eee;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-family: 'Courier New', monospace;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>✅ قائمة المهام قبل ورشة: تحليل بيانات Bulk RNA-seq باستخدام بايثون</h1>
+
+  <section>
+    <h2>🧰 هل لديك Python وAnaconda على جهازك؟</h2>
+    <p>إذا كانت الإجابة <strong>نعم</strong>، يرجى:</p>
+    <ol>
+      <li>فتح <code>Anaconda Prompt</code> أو <code>Terminal</code></li>
+      <li>إنشاء بيئة جديدة:
+        <pre><code>conda create -n bulk-rnaseq python=3.10</code></pre>
+      </li>
+      <li>تفعيل البيئة:
+        <pre><code>conda activate bulk-rnaseq</code></pre>
+      </li>
+      <li>تثبيت الحزم:
+        <pre><code>pip install numpy pandas pydeseq2 scanpy scikit-learn matplotlib seaborn plotly sanbomics mygene gseapy notebook</code></pre>
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>❌ إن لم يكن لديك Python أو Anaconda</h2>
+    <p>يرجى:</p>
+    <ol>
+      <li>تثبيت Python</li>
+      <li>تثبيت Anaconda<br>
+        🎥 <a href="YOUR_YOUTUBE_LINK_HERE" target="_blank">اضغط هنا لمشاهدة فيديو التثبيت</a>
+      </li>
+      <li>اتبع نفس خطوات إنشاء البيئة وتثبيت الحزم أعلاه</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>📌 ملاحظات إضافية:</h2>
+    <ul>
+      <li>تأكد من أنك تستطيع تشغيل <code>jupyter notebook</code> بدون مشاكل</li>
+      <li>تأكد من تفعيل البيئة دائمًا قبل الورشة:
+        <pre><code>conda activate bulk-rnaseq</code></pre>
+      </li>
+    </ul>
+  </section>
+
+</body>
+</html>
